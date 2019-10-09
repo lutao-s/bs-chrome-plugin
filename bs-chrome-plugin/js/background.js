@@ -8,7 +8,7 @@ setInterval(function () {
     document.getElementById("backupTime").innerText=getDate(2);
     document.getElementById("excuteTime").innerText = times;
     times++;
-},1000)
+},1000);
 
 
 //获取时间
