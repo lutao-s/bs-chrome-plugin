@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+
+<head>
+    <meta http-equiv="Content-Security-Policy" content="script-src * 'unsafe-inline'">
+    <meta charset="utf-8">
+    <title></title>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/select2.min.js"></script>
+    <link href="css/select2.min.css" rel="stylesheet"  type="text/css"/>
+    <link href="css/main.css" rel="stylesheet"  type="text/css"/>
+</head>
+<body>
+<!--<iframe src="https://www.baidu.com"></iframe>-->
+
+<div>
+<div id="content" style="width:400px;height:700px">
+    <label class="label-message">白山科技-数聚蜂巢</label>
+    <hr>
+    <input type="button" class="form-button" id="openIndex" value="打开主页"/>
+    <input type="button" class="form-button" id="getBackInfo" value="获取信息"/>
+    <br>
+    <label class="label-message">操作</label>
+    <hr>
+    <input type="button" class="form-button" id="notification" value="显示通知"/>
+    <input type="button" class="form-button" id="addNotice" value="10s后通知我 pop调用"/>
+    <input type="button" class="form-button" id="addNoticeForBack" value="pop通知content修改提示"/>
+    <input type="button" class="form-button" id="excuteJs" value="动态注入js"/>
+    <input type="button" class="form-button" id="insertCss" value="动态注入css"/>
+    <input type="button" class="form-button" id="currentWindowId" value="获取窗口id，获取标签页id"/>
+    <input type="button" class="form-button" id="storageTestInsert" value="置入Storage"/>
+    <input type="button" class="form-button" id="storageTestQuery" value="取出Storage"/>
+    <input type="button" class="form-button" id="webRequestTest" value="开启音视频检测"/>
+    <!--<input type="button" id="test" value="测试按钮"/>-->
+    <br>
+    <label class="label-message">信息展示</label>
+    <hr>
+    <label>获取当前时间：<span id="backpageTime"></span>获取当前执行次数：<span id="backTimes"></span></label>
+    <label id="message"></label>
+    <br>
+
+</div>
+    <!--<input type="text" id="sync"/>-->
+    <!--<input type="button" id="btnRetry" value="同步"/>-->
+</div>
+</body>
+
+<script type="text/javascript" src="js/popup.js"></script>
+
+
+</html>

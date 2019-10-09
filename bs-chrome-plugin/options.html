@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="zh" dir="ltr">
+<head>
+    <meta http-equiv="Content-Security-Policy" content="script-src * 'unsafe-inline'">
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+        .form-button{
+            border: 1px solid #DADCE0;
+            border-radius: 4px;
+            flex-shrink: 0;
+            font-weight: 500;
+            height: 32px;
+            margin: 0;
+            padding: 0px 16px;
+            text-decoration: none;
+            text-transform: none;
+            background-color: white;
+            color: #1A73E8;
+        }
+        .form-button:hover{
+            background-color: #C5CAE9;
+        }
+        .form-button:visited{
+            background-color: #8A9AFD;
+        }
+        .label-message{
+            font-size:16px;
+            padding: 0px 10px;
+            color:#5F79F6;
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+<body>
+
+<div>
+<div id="config">
+    <h2 style="color:#5F79F6">配置信息</h2>
+    <label style="font-size:14px;">设置背景颜色</label><input type="text" id="color"/>
+    <hr>
+    <input type="button" class="form-button" id="login" value="配置"/>
+</div>
+    <!--<input type="text" id="sync"/>-->
+    <!--<input type="button" id="btnRetry" value="同步"/>-->
+</div>
+</body>
+
+<script type="text/javascript" src="js/options.js"></script>
+
+
+</html>
