@@ -80,7 +80,6 @@ chrome.omnibox.onInputChanged.addListener((text, suggest) => {
         suggest([
             {content: '新浪' + text, description: '新浪' + text},
             {content: '腾讯' + text, description: '腾讯' + text},
-            {content: '搜狐' + text, description: '搜索' + text},
         ]);
     }
     else {
